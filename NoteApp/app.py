@@ -1,5 +1,5 @@
 from flask import Flask
-from NoteApp.Views.index import bp as index_bp
+from NoteApp.views.index import bp as index_bp
 
 app = Flask(__name__)
 
